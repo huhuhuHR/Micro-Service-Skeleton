@@ -1,0 +1,324 @@
+repo_name: huhuhuHR/Micro-Service-Skeleton
+report_id: bb13571e6cb2e4881cf2fa43e9164fa4
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:26:34+00:00'
+requested_by: yangxiufeng666
+provider: github
+branch: master
+detected_tools_count: 25
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-07 09:06:37.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/other/db/zuul-auth.sql
+  detection_source: other/db/zuul-auth.sql
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-29 06:46:04.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-monitor/pom.xml
+  detection_source: mss-monitor/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-upms/pom.xml
+  detection_source: mss-upms/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2018-06-13 06:27:02.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-09 07:22:06.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-28 09:21:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton
+  detection_source: Repo Metadata
+- name: Hystrix
+  description: Latency and fault tolerance library
+  website_url: https://github.com/Netflix/Hystrix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Fault Tolerance Tools
+  image_url: https://img.stackshare.io/service/1758/cde558e9b4a1f07ff99f90d637c38388.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-monitor/pom.xml
+  detection_source: mss-monitor/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2018-12-05 08:53:57.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/src/main/resources/logback.xml
+  detection_source: mss-oauth/src/main/resources/logback.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2018-01-10 09:00:05.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-07 09:06:37.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/src/main/resources/application.yml
+  detection_source: mss-gateway/src/main/resources/application.yml
+  last_updated_by: ManongJu
+  last_updated_on: 2017-12-09 07:22:06.000000000 Z
+- name: com.alibaba:druid-spring-boot-starter
+  description: Spring Boot with Druid support,help you simplify Druid config in Spring
+    Boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.mybatis.generator:mybatis-generator-core
+  description: MyBatis Generator - a code generator for MyBatis and iBatis
+  version: 1.3.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-upms/pom.xml
+  detection_source: mss-upms/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.16.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/pom.xml
+  detection_source: mss-common/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2018-06-13 06:27:02.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-oauth/pom.xml
+  detection_source: mss-oauth/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-monitor/pom.xml
+  detection_source: mss-monitor/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-common/pom.xml
+  detection_source: mss-common/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2018-06-13 06:27:02.000000000 Z
+- name: org.springframework.retry:spring-retry
+  description: "#&lt;Ox::CData:0x00007efddc429b78&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
+- name: org.springframework.security.oauth:spring-security-oauth2
+  description: Module for providing OAuth2 support to Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/Micro-Service-Skeleton/blob/master/mss-gateway/pom.xml
+  detection_source: mss-gateway/pom.xml
+  last_updated_by: ManongJu
+  last_updated_on: 2019-02-14 09:24:55.000000000 Z
